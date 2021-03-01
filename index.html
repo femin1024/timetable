@@ -5,15 +5,20 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>시간표</title>
 <style>
-.main{
+
+.main {
   position: absolute;
   left: 50%; 
   transform: translateX(-50%);
+  width: 400px;
+} 
+
+.main table{
   color: #121212;
 	border: 2px solid #d2d2d2;
 	border-collapse: collapse;
 	font-size: 0.9em;
-  width: 400px;
+  width: 100%;
   text-align: center;
 }
 .main th, .main td{
@@ -109,6 +114,21 @@
   }
 
 }
+
+.klms_wrapper {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.klms {
+  display: inline-block;
+  padding: 5px 10px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 14px;
+  background-color: black;
+}
+
 </style>
 <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
 <script type="text/javascript" src="data.js"></script>
@@ -188,53 +208,71 @@
   </div>
 </div>
 
-<table class = "main">
-<caption>강의 시간표</caption>
-  <tr>
-    <th></th>
-    <th class = "col">월</th>
-    <th class = "col">화</th>
-    <th class = "col">수</th>
-    <th class = "col">목</th>
-    <th class = "col">금</th>
-  </tr>
-  <tr class = "shrunk">
-    <th>1</th>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    
-  </tr>
-  <tr>
-    <th>2</th>
-    <td onclick="openWindow(0)" style="cursor: pointer; background-color: #ffdc90">양자 정보</td>
-    <td onclick="openWindow(1)" style="cursor: pointer; background-color: #ff9a8b">고체 물리학</td>
-    <td onclick="openWindow(0)" style="cursor: pointer; background-color: #ffdc90">양자 정보</td>
-    <td onclick="openWindow(1)" style="cursor: pointer; background-color: #ff9a8b">고체 물리학</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td colspan="6" class="launch">점 심 시 간</td>
-  </tr>
-  <tr>
-    <th>3</th>
-    <td onclick="openWindow(2)" style="cursor: pointer; background-color: #abd664">광통신</td>
-    <td onclick="openWindow(3)" style="cursor: pointer; background-color: #ffa653">머신 러닝</td>
-    <td onclick="openWindow(2)" style="cursor: pointer; background-color: #abd664">광통신</td>
-    <td onclick="openWindow(3)" style="cursor: pointer; background-color: #ffa653">머신 러닝</td>
-    <td></td>
-  </tr>
-  <tr>
-    <th>4</th>
-    <td></td>
-    <td onclick="openWindow(2)" style="cursor: pointer; background-color: #9fc9ff">입자 물리학</td>
-    <td></td>
-    <td onclick="openWindow(3)" style="cursor: pointer; background-color: #9fc9ff">입자 물리학</td>
-    <td></td>
-  </tr>
-</table>
-
+<div class = "main">
+  <table>
+  <caption>강의 시간표</caption>
+    <tr>
+      <th></th>
+      <th class = "col">월</th>
+      <th class = "col">화</th>
+      <th class = "col">수</th>
+      <th class = "col">목</th>
+      <th class = "col">금</th>
+    </tr>
+    <tr class = "shrunk">
+      <th>1</th>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      
+    </tr>
+    <tr>
+      <th>2</th>
+      <td onclick="openWindow(0)" style="cursor: pointer; background-color: #ffdc90">양자 정보</td>
+      <td onclick="openWindow(1)" style="cursor: pointer; background-color: #ff9a8b">고체 물리학</td>
+      <td onclick="openWindow(0)" style="cursor: pointer; background-color: #ffdc90">양자 정보</td>
+      <td onclick="openWindow(1)" style="cursor: pointer; background-color: #ff9a8b">고체 물리학</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td colspan="6" class="launch">점 심 시 간</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td onclick="openWindow(2)" style="cursor: pointer; background-color: #abd664">광통신</td>
+      <td onclick="openWindow(3)" style="cursor: pointer; background-color: #ffa653">머신 러닝</td>
+      <td onclick="openWindow(2)" style="cursor: pointer; background-color: #abd664">광통신</td>
+      <td onclick="openWindow(3)" style="cursor: pointer; background-color: #ffa653">머신 러닝</td>
+      <td></td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td></td>
+      <td onclick="openWindow(4)" style="cursor: pointer; background-color: #9fc9ff">입자 물리학</td>
+      <td></td>
+      <td onclick="openWindow(4)" style="cursor: pointer; background-color: #9fc9ff">입자 물리학</td>
+      <td></td>
+    </tr>
+  </table>
+  <div class = "klms_wrapper">
+    <div class = "klms">
+      <span>
+        <a href = "https://klms.kaist.ac.kr" style = "text-decoration:none; color : white">KLMS</a>
+      </span>
+    </div>
+    <div class = "klms">
+      <span>
+        <a href = "https://www.kaist.ac.kr/kr/html/campus/053001.html?dvs_cd=icc" style = "text-decoration:none; color : white">식당</a>
+      </span>
+    </div>
+    <div class = "klms">
+      <span>
+        <a href = "https://www.kaist.ac.kr/kr/html/kaist/01140202.html" style = "text-decoration:none; color : white">셔틀 버스</a>
+      </span>
+    </div>
+  </div>
+</div>
 </body>
 </html>
