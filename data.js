@@ -26,7 +26,7 @@ var datalist = [
     {
         "classname": "머신 러닝",
         "time": "화 목  1:00 ~ 2:15",
-        "zoom": "id: 5884186216<br>pw: n1617<br><a href='https://kaist.zoom.us/j/5884186216?pwd=eTR6aHhnYWdXMkFNR2h1bjcvSFNYQT09'></a>",
+        "zoom": "id: 5884186216<br>pw: n1617<br><a href='https://kaist.zoom.us/j/5884186216?pwd=eTR6aHhnYWdXMkFNR2h1bjcvSFNYQT09'>바로가기</a>",
         "prof": "문재균",
         "ta": "@kaist.ac.kr",
         "note": "<a href='https://klms.kaist.ac.kr/mod/courseboard/view.php?id=492410'>공지사항</a>"
