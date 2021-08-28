@@ -28,13 +28,13 @@ var datalist = [
         "time": "화 목  10:30 ~ 11:45",
         "zoom": "id: <br><a href ='https://kaist.zoom.us/'>바로가기</a>",
         "prof": "성영철 @kaist.ac.kr",
-        "ta": "4@kaist.ac.kr",
+        "ta": "@kaist.ac.kr",
         "note": "<a href='https://klms.kaist.ac.kr/mod/courseboard/view.php?id=576620'>공지사항</a>"
     },
     {
         "classname": "건캠생",
         "time": "화  1:00 ~ 2:45",
-        "zoom": "id: <br>pw: <br><a href='https://kaist.zoom.us/'>바로가기</a><br><a href='https://zoom.us/j/4705903587?pwd=WGRRbTZQcHJjZTJQZXV0VG9ldUgzQT09'>연습반</a>",
+        "zoom": "id: <br>pw: <br><a href='https://kaist.zoom.us/'>바로가기</a>",
         "prof": "김석희",
         "ta": "@kaist.ac.kr",
         "note": "<a href='https://klms.kaist.ac.kr/mod/courseboard/view.php?id=578153'>공지사항</a>"
