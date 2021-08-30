@@ -2,7 +2,7 @@ var datalist = [
     {
         "classname": "DSP",
         "time": "월 수  9:00 ~ 10:15",
-        "zoom": "id: <br>pw: <br><a href='https://kaist.zoom.us/'>바로가기</a>",
+        "zoom": "비실시간",
         "prof": "김창익 @kaist.ac.kr",
         "ta": "@kaist.ac.kr",
         "note": "<a href='https://klms.kaist.ac.kr/mod/courseboard/view.php?id=576704'>공지사항</a>"
@@ -54,7 +54,7 @@ var datalist = [
         "zoom": "비실시간",
         "prof": "권길헌",
         "ta": "@kaist.ac.kr",
-        "note": "<a href='https://klms.kaist.ac.kr/mod/courseboard/view.php?id=578006'>공지사항</a>"
+        "note": "<a href='https://klms.kaist.ac.kr/mod/courseboard/view.php?id=586837'>공지사항</a>"
     }
     ,
     {
@@ -63,6 +63,6 @@ var datalist = [
         "zoom": "비실시간",
         "prof": "정연승",
         "ta": "@kaist.ac.kr",
-        "note": "<a href='https://klms.kaist.ac.kr/mod/courseboard/view.php?id=578006'>공지사항</a>"
+        "note": "<a href='https://klms.kaist.ac.kr/mod/courseboard/view.php?id=569642'>공지사항</a>"
     }
 ];
