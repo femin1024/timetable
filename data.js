@@ -34,7 +34,7 @@ var datalist = [
     {
         "classname": "건캠생",
         "time": "화  1:00 ~ 2:45",
-        "zoom": "id: <br>pw: <br><a href='https://kaist.zoom.us/'>바로가기</a>",
+        "zoom": "id: 819 4255 2178<br><a href='https://kaist.zoom.us/j/81942552178'>바로가기</a>",
         "prof": "김석희",
         "ta": "@kaist.ac.kr",
         "note": "<a href='https://klms.kaist.ac.kr/mod/courseboard/view.php?id=578153'>공지사항</a>"
