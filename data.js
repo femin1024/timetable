@@ -26,7 +26,7 @@ var datalist = [
     {
         "classname": "확기확",
         "time": "화 목  10:30 ~ 11:45",
-        "zoom": "id: <br><a href ='https://kaist.zoom.us/'>바로가기</a>",
+        "zoom": "id: 889 8849 4736<br>pw: 501351<br><a href ='https://kaist.zoom.us/j/88988494736?pwd=blo2SDdVYTUrZWtvOEZkWW90Z0Z0Zz09'>바로가기</a>",
         "prof": "성영철 @kaist.ac.kr",
         "ta": "@kaist.ac.kr",
         "note": "<a href='https://klms.kaist.ac.kr/mod/courseboard/view.php?id=576620'>공지사항</a>"
@@ -44,6 +44,24 @@ var datalist = [
         "time": "화 목  4:00 ~ 5:15",
         "zoom": "id: 514 926 6670<br><a href = 'https://kaist.zoom.us/j/5149266670'>바로가기</a> ",
         "prof": "권미란",
+        "ta": "@kaist.ac.kr",
+        "note": "<a href='https://klms.kaist.ac.kr/mod/courseboard/view.php?id=578006'>공지사항</a>"
+    }
+    ,
+    {
+        "classname": "응용 해석학",
+        "time": "월 수  1:00 ~ 2:15&nbsp금  11:00 ~ 12:00",
+        "zoom": "비실시간",
+        "prof": "권길헌",
+        "ta": "@kaist.ac.kr",
+        "note": "<a href='https://klms.kaist.ac.kr/mod/courseboard/view.php?id=578006'>공지사항</a>"
+    }
+    ,
+    {
+        "classname": "확통",
+        "time": "월 수  2:30 ~ 3:45",
+        "zoom": "비실시간",
+        "prof": "정연승",
         "ta": "@kaist.ac.kr",
         "note": "<a href='https://klms.kaist.ac.kr/mod/courseboard/view.php?id=578006'>공지사항</a>"
     }
