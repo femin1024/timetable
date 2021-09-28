@@ -34,7 +34,7 @@ var datalist = [
     {
         "classname": "건캠생",
         "time": "화  1:00 ~ 2:45",
-        "zoom": "id: 819 4255 2178<br><a href='https://kaist.zoom.us/j/81942552178'>바로가기</a>",
+        "zoom": "<a href='https://mail.kaist.ac.kr'>mail</a>",
         "prof": "김석희",
         "ta": "@kaist.ac.kr",
         "note": "<a href='https://klms.kaist.ac.kr/mod/courseboard/view.php?id=578153'>공지사항</a>"
@@ -45,7 +45,7 @@ var datalist = [
         "zoom": "id: 514 926 6670<br><a href = 'https://kaist.zoom.us/j/5149266670'>바로가기</a> ",
         "prof": "권미란",
         "ta": "@kaist.ac.kr",
-        "note": "<a href='https://klms.kaist.ac.kr/mod/courseboard/view.php?id=578006'>공지사항</a>"
+        "note": "<a href='https://klms.kaist.ac.kr/mod/courseboard/view.php?id=578006'>공지사항</a><br>https://docs.google.com/spreadsheets/d/1Wix0dqBdLotSR76iXVy4PtuEdX7vOgg4_2R8atnrj0g/edit?usp=sharing"
     }
     ,
     {
