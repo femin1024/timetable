@@ -45,7 +45,7 @@ var datalist = [
         "zoom": "id: 514 926 6670<br><a href = 'https://kaist.zoom.us/j/5149266670'>바로가기</a> ",
         "prof": "권미란",
         "ta": "@kaist.ac.kr",
-        "note": "<a href='https://klms.kaist.ac.kr/mod/courseboard/view.php?id=578006'>공지사항</a><br>https://docs.google.com/spreadsheets/d/1Wix0dqBdLotSR76iXVy4PtuEdX7vOgg4_2R8atnrj0g/edit?usp=sharing"
+        "note": "<a href='https://klms.kaist.ac.kr/mod/courseboard/view.php?id=578006'>공지사항</a><p>https://docs.google.com/spreadsheets/d/1Wix0dqBdLotSR76iXVy4PtuEdX7vOgg4_2R8atnrj0g/edit?usp=sharing</p>"
     }
     ,
     {
