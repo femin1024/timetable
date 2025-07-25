@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MATLAB 코드 다운로드</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f4f4f8;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+    }
+    .container {
+      background: white;
+      padding: 40px;
+      border-radius: 12px;
+      box-shadow: 0 0 20px rgba(0,0,0,0.1);
+      text-align: center;
+      width: 100%;
+      max-width: 400px;
+    }
+    h2 {
+      margin-bottom: 20px;
+    }
+    button {
+      background-color: #007acc;
+      color: white;
+      border: none;
+      padding: 12px 24px;
+      font-size: 16px;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+    button:hover {
+      background-color: #005fa3;
+    }
+    .payment-form {
+      display: none;
+      margin-top: 20px;
+      text-align: left;
+    }
+    .payment-form input {
+      width: 100%;
+      padding: 10px;
+      margin-top: 8px;
+      margin-bottom: 16px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+    }
+    .payment-form label {
+      font-size: 14px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h2>MATLAB 코드를 다운 받으시겠습니까?</h2>
+    <button onclick="showPayment()">다운로드하기</button>
+
+    <div class="payment-form" id="paymentForm">
+      <label for="cardNumber">카드 번호</label>
+      <input type="text" id="cardNumber" placeholder="1234 5678 9012 3456" />
+
+      <label for="expiry">만료일</label>
+      <input type="text" id="expiry" placeholder="MM/YY" />
+
+      <label for="cvv">CVV</label>
+      <input type="text" id="cvv" placeholder="123" />
+
+      <button style="width:100%;" onclick="submitPayment()">결제 및 다운로드</button>
+    </div>
+  </div>
+
+  <script>
+    function showPayment() {
+      document.getElementById('paymentForm').style.display = 'block';
+    }
+
+    function submitPayment() {
+      alert("카드 정보가 유효하지 않습니다");
+    }
+  </script>
+
+</body>
+</html>
